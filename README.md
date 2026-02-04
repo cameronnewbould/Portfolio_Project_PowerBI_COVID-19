@@ -6,31 +6,21 @@ This project presents an **advanced Power BI analytics solution** designed to ex
 
 The dashboard enables users to move from a **high-level global overview** to **country-specific and daily-level insights**, supporting deeper analytical exploration of pandemic trends, severity, and outcomes.
 
-The focus of this project is not just reporting, but **analytical storytelling**, showcasing advanced Power BI capabilities such as:
-- Robust data modelling
-- Time-intelligence calculations
-- Drill-through and tooltip pages
-- Interactive, user-driven exploration
-
 ---
 
-## 📂 Dataset
-The dataset is sourced from **public COVID-19 datasets on Kaggle**, which aggregate reported data from international health authorities and government sources.
-🔗 [Dataset](https://www.kaggle.com/datasets/joebeachcapital/coronavirus-covid-19-cases-daily-updates/data)
+## 🛠 Key Power BI Techniques Demonstrated
 
-### Core Fields
-- Date (daily granularity)
-- Country / Region
-- Confirmed Cases
-- Deaths
-- Recovered Cases
-- (Optional) Population, testing, or vaccination metrics
+This project showcases a range of Power BI skills relevant to BI roles:
 
-### Dataset Characteristics
-- Large-scale time-series data
-- Multi-geographic coverage (global and country level)
-- Inconsistent reporting and missing values
-- Requires data cleaning, transformation, and modelling
+✔ Data cleaning and shaping using **Power Query Editor**  
+✔ **Star schema** design in data modelling  
+✔ Advanced **DAX measures** including time-intelligence calculations
+✔ Interactive slicers and dynamic visuals  
+✔ **Drill through** pages
+✔ **Bookmarks**
+✔ Interactive, user-driven exploration
+✔ Navigation buttons
+✔ Custom theme
 
 ---
 
@@ -44,24 +34,39 @@ The primary goals of this project are to:
 
 ---
 
+## 📂 Dataset
+The dataset is sourced from **public COVID-19 datasets on Kaggle**, which aggregate reported data from international health authorities and government sources.
+🔗 [Dataset](https://www.kaggle.com/datasets/joebeachcapital/coronavirus-covid-19-cases-daily-updates/data)
+
+### Dataset Characteristics
+- Large-scale time-series data
+- Multi-geographic coverage (global and country level)
+- Inconsistent reporting and missing values
+- Requires data cleaning, transformation, and modelling
+-‘Daily’ data initially at weekly granularity requires smoothing
+
+---
+
 ## 🛠 Data Preparation & Modelling
 - Data cleaning and transformation performed using **Power Query**
 - Missing values handled and reporting inconsistencies standardised
 - A **star schema** model implemented:
-  - Fact table for daily COVID-19 metrics
-  - Dimension tables for Date and Country/Region
-- Dedicated Date table created and marked as a date table
+- Fact table for daily COVID-19 metrics
+- Dimension tables for Date and Location
+- Dedicated Date table created with DAX and marked as a date table
 - Correct relationship cardinality and filter direction enforced
+![Data Model](screenshots/data model.jpg)
+![Date Table](screenshots/DAX date table.jpg)
 
 ---
 
 ## 📐 Key Measures & Calculations
 The dashboard includes advanced DAX measures such as:
-- Total confirmed cases, deaths, and recoveries
+- Total confirmed cases and deaths
 - Daily new cases and deaths
-- Rolling averages (7-day / 14-day)
+- Rolling averages (7-day / 28-day)
 - Case Fatality Rate (CFR)
-- Growth rates and percentage change
+- Global GDP rankings
 - Peak detection (maximum daily cases per country)
 - Country ranking by selected metrics
 
@@ -69,17 +74,23 @@ The dashboard includes advanced DAX measures such as:
 
 # 📊 Report Pages
 
-## 📄 Page 1 — Global Overview
+##📄 Page 1 — Global Overview Dashboard
 **Purpose:** Provide a high-level snapshot of the global pandemic situation.
-`Screenshot`
+| Page 1 – Cases | Page 1 – Deaths |
+|---------------|-------------|
+| ![Global Overview Dashboard](screenshots/page 1a.jpg)
+| ![Global Overview Dashboard](screenshots/page 1b.jpg) |
 
-## 📄 Page 2 — Country Comparison & Trends
+## 📄 Page 2 — Country Comparison Dashboard
 **Purpose:** Compare trends, severity, and wave patterns across countries.
-`Screenshot`
+| Page 2 – Deaths | Page 2 – Cases + drillthrough |
+|---------------|-------------|
+| ![Country Comparison Dashboard](screenshots/page 2b.jpg)
+| ![Country Comparison Dashboard](screenshots/page 2a drillthrough.jpg) |
 
-## 📄 Page 3 — Country Drill-Through (Daily Detail)
+## 📄 Page 3 — Country Focus Dashboard
 **Purpose:** Provide a detailed daily breakdown for a selected country.
-`Screenshot`
+![Country Focus Dashboard](screenshots/page 3 drillthrough.jpg) 
 
 ---
 
@@ -92,7 +103,7 @@ The final deliverable is a **professional, multi-page Power BI dashboard** that 
 
 ---
 
-## 🧰 Tools & Technologies
+## ✨ Credits & Acknowledgements
 - Power BI Desktop
 - Power Query (M)
 - DAX
@@ -100,13 +111,17 @@ The final deliverable is a **professional, multi-page Power BI dashboard** that 
 
 ---
 
-## 📎 Screenshots
-Add report screenshots once complete.
+## 📂 Files in This Repository
+
+| File / Folder | Description |
+|---------------|-------------|
+| `project COVID-19` | Power BI Desktop report file |
+| `screenshots/` | Dashboard screenshot assets |
+| `README.md` | This documentation |
 
 ---
 
 ## Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Cameron_Newbould-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/cameron-newbould-4a434a308/)
-
 
