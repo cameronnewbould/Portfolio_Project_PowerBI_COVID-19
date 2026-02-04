@@ -11,14 +11,14 @@ The dashboard enables users to move from a **high-level global overview** to **c
 ## 🛠 Key Power BI Techniques Demonstrated
 This project showcases a range of Power BI skills relevant to BI and data analyst roles:
 
-- ✔ Data cleaning and shaping using **Power Query Editor**
-- ✔ **Star schema** design in data modelling
-- ✔ Advanced **DAX measures**, including time-intelligence calculations
-- ✔ Interactive slicers and dynamic visuals
-- ✔ **Drill-through** pages
-- ✔ **Bookmarks**
-- ✔ Navigation buttons
-- ✔ Custom theme and UX design
+✔ Data cleaning and shaping using **Power Query Editor**  
+✔ **Star schema** design in data modelling  
+✔ Advanced **DAX measures**, including time-intelligence calculations  
+✔ Interactive slicers and dynamic visuals  
+✔ **Drill-through** pages  
+✔ **Bookmarks**  
+✔ Navigation buttons  
+✔ Custom theme and UX design  
 
 ---
 
@@ -33,10 +33,7 @@ The primary goals of this project are to:
 ---
 
 ## 📂 Dataset
-The dataset is sourced from **public COVID-19 datasets on Kaggle**, aggregating reported data from international health authorities and government sources.
-
-🔗 **Dataset:**  
-https://www.kaggle.com/datasets/joebeachcapital/coronavirus-covid-19-cases-daily-updates/data
+The dataset is sourced from **public COVID-19 datasets on Kaggle**, aggregating reported data from international health authorities and government sources. 🔗 [Dataset](https://www.kaggle.com/datasets/joebeachcapital/coronavirus-covid-19-cases-daily-updates/data)
 
 ### Dataset Characteristics
 - Large-scale time-series data
