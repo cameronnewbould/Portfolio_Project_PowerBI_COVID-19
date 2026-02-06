@@ -32,6 +32,33 @@ The primary goals of this project are to:
 
 ---
 
+## 📊 Report Pages
+
+### 📄 Page 1 — Global Overview Dashboard
+**Purpose:** Provide a high-level snapshot of the global pandemic situation.
+
+| Cases View | Deaths View |
+|-----------|------------|
+| ![Global Overview Cases](screenshots/page%201a.jpg) | ![Global Overview Deaths](screenshots/page%201b.jpg) |
+
+---
+
+### 📄 Page 2 — Country Comparison Dashboard
+**Purpose:** Compare trends, severity, and wave patterns across countries.
+
+| Deaths View | Cases View (Drill-through Enabled) |
+|------------|----------------------------------|
+| ![Country Comparison Deaths](screenshots/page%202b.jpg) | ![Country Comparison Cases](screenshots/page%202a%20drillthrough.jpg) |
+
+---
+
+### 📄 Page 3 — Country Focus Dashboard
+**Purpose:** Provide a detailed daily breakdown for a selected country.
+
+![Country Focus Dashboard](screenshots/page%203%20drillthrough.jpg)
+
+---
+
 ## 📂 Dataset
 The dataset is sourced from **public COVID-19 datasets on Kaggle**, aggregating reported data from international health authorities and government sources. 🔗 [Dataset](https://www.kaggle.com/datasets/joebeachcapital/coronavirus-covid-19-cases-daily-updates/data)
 
@@ -70,33 +97,6 @@ The dashboard includes advanced DAX measures such as:
 - Global GDP rankings
 - Peak detection (maximum daily cases per country)
 - Country ranking by selected metrics
-
----
-
-## 📊 Report Pages
-
-### 📄 Page 1 — Global Overview Dashboard
-**Purpose:** Provide a high-level snapshot of the global pandemic situation.
-
-| Cases View | Deaths View |
-|-----------|------------|
-| ![Global Overview Cases](screenshots/page%201a.jpg) | ![Global Overview Deaths](screenshots/page%201b.jpg) |
-
----
-
-### 📄 Page 2 — Country Comparison Dashboard
-**Purpose:** Compare trends, severity, and wave patterns across countries.
-
-| Deaths View | Cases View (Drill-through Enabled) |
-|------------|----------------------------------|
-| ![Country Comparison Deaths](screenshots/page%202b.jpg) | ![Country Comparison Cases](screenshots/page%202a%20drillthrough.jpg) |
-
----
-
-### 📄 Page 3 — Country Focus Dashboard
-**Purpose:** Provide a detailed daily breakdown for a selected country.
-
-![Country Focus Dashboard](screenshots/page%203%20drillthrough.jpg)
 
 ---
 
