@@ -109,7 +109,7 @@ The final deliverable is a **professional, multi-page Power BI dashboard** that 
 
 ---
 
-## ✨ Credits & Acknowledgements
+## 🛠 Tools & Technologies
 - Power BI Desktop  
 - Power Query (M)  
 - DAX  
