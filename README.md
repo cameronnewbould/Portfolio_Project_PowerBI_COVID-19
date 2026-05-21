@@ -1,5 +1,5 @@
 # 🦠 Advanced COVID-19 Global Impact & Trend Analysis  
-### Portfolio Project — Power BI
+### Portfolio Project — Power BI - COVID-19
 
 ## 📌 Project Overview
 This project presents an **advanced Power BI analytics solution** designed to explore the global progression and impact of COVID-19 through **time-series analysis, geographic comparisons, and drill-through reporting**.
