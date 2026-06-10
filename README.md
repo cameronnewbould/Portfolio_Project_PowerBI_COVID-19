@@ -23,7 +23,7 @@
 ## 🎯 Project Objectives
 The primary goals of this project are to:
 - **Demonstrate advanced Power BI skills suitable for a professional portfolio**
--**Design a multi-page dashboard ranging from a global overview to country focus**
+- **Design a multi-page dashboard ranging from a global overview to country focus**
 - **Enable interactive exploration via drill-through and slicers**
 
 ---
