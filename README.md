@@ -1,4 +1,4 @@
-# 🦠 Advanced COVID-19 Exploratory Data Analysis and Dashboard
+# 🦠 COVID-19 Exploratory Data Analysis and Dashboard
 ### Portfolio Project — Power BI - COVID-19
 
 ## 📌 Project Overview
