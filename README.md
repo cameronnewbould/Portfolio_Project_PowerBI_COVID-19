@@ -2,14 +2,12 @@
 ### Portfolio Project — Power BI - COVID-19
 
 ## 📌 Project Overview
-This project presents an **advanced Power BI analytics solution** designed to explore the global progression and impact of COVID-19 through **time-series analysis, geographic comparisons, and drill-through reporting**.
-
-The dashboard enables users to move from a **high-level global overview** to **country-specific and daily-level insights**, supporting deeper analytical exploration of pandemic trends, severity, and outcomes.
+-	This project presents a **Power BI dashboard** designed to explore the global progression and impact of COVID-19 through **time-series analysis, geographic comparisons, and drill-through reporting**.
+-	The dashboard enables users to move from a **high-level global overview** to **country-specific** and **daily-level insights**, supporting deeper analytical exploration of pandemic **trends, severity, and outcomes**.
 
 ---
 
-## 🛠 Key Power BI Techniques Demonstrated
-This project showcases a range of Power BI skills relevant to BI and data analyst roles:
+## 🛠 Key Power BI & Data Analysis Techniques Demonstrated
 
 ✔ Data cleaning and shaping using **Power Query Editor**  
 ✔ **Star schema** design in data modelling  
@@ -24,11 +22,9 @@ This project showcases a range of Power BI skills relevant to BI and data analys
 
 ## 🎯 Project Objectives
 The primary goals of this project are to:
-- Analyse the temporal evolution of COVID-19 cases and deaths
-- Identify and compare pandemic waves and peak periods
-- Evaluate severity and outcomes using derived metrics
-- Enable interactive exploration via drill-through and slicers
-- Demonstrate advanced Power BI skills suitable for a professional portfolio
+- **Demonstrate advanced Power BI skills suitable for a professional portfolio**
+-**Design a multi-page dashboard ranging from a global overview to country focus**
+- **Enable interactive exploration via drill-through and slicers**
 
 ---
 
@@ -59,20 +55,8 @@ The primary goals of this project are to:
 
 ---
 
-## 📂 Dataset
-The dataset is sourced from **public COVID-19 datasets on Kaggle**, aggregating reported data from international health authorities and government sources. 🔗 [Dataset](https://www.kaggle.com/datasets/joebeachcapital/coronavirus-covid-19-cases-daily-updates/data)
-
-### Dataset Characteristics
-- Large-scale time-series data
-- Multi-geographic coverage (global and country level)
-- Inconsistent reporting and missing values
-- Requires data cleaning, transformation, and modelling
-- “Daily” data initially reported at weekly granularity, requiring smoothing
-
----
-
 ## 🛠 Data Preparation & Modelling
-- Data cleaning and transformation performed using **Power Query**
+- Data cleaning and transformation performed using **Power Query Editor**
 - Missing values handled and reporting inconsistencies standardised
 - A **star schema** model implemented:
   - Fact table for daily COVID-19 metrics
@@ -106,6 +90,11 @@ The final deliverable is a **professional, multi-page Power BI dashboard** that 
 - Strong command of DAX and time intelligence
 - Effective dashboard design and user experience
 - Analytical depth beyond basic reporting
+
+---
+
+# 📂 Dataset
+The dataset is sourced from **public COVID-19 datasets**, which aggregated reported data from international health authorities and government sources. 🔗 [Dataset](https://www.kaggle.com/datasets/joebeachcapital/coronavirus-covid-19-cases-daily-updates/data)
 
 ---
 
