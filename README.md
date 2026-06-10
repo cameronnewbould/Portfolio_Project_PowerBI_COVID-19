@@ -65,10 +65,23 @@ The primary goals of this project are to:
 - Correct relationship cardinality and filter direction enforced
 
 ### Data Model
+
+<details>
+<summary>Star schema</summary>
+
 ![Data Model](screenshots/data%20model.jpg)
 
+</details>
+
 ### Date Table (DAX)
+
+<details>
+<summary>Date table</summary>
+
 ![Date Table](screenshots/DAX%20date%20table.jpg)
+
+</details>
+
 
 ---
 
